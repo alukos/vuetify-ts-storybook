@@ -39,7 +39,6 @@
     "babel-core": "7.0.0-bridge.0",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
-    "node-sass": "^4.9.0",
     "sass": "^1.17.4",
     "sass-loader": "^7.1.0",
     "ts-jest": "^23.0.0",
