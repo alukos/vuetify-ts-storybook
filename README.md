@@ -1,8 +1,18 @@
 # not-a-todo-app
+[habr](https://habr.com/ru/post/438354/)
+
+## webpack config
+- [add sass](https://storybook.js.org/docs/configurations/custom-webpack-config/#full-control-mode)
+- [package.json rm node-sass](https://github.com/vuetifyjs/vuetify/issues/7950#issuecomment-514853150)
 
 ## Project setup
 ```
 yarn install
+```
+
+### Storybook
+```
+yarn storybook
 ```
 
 ### Compiles and hot-reloads for development
