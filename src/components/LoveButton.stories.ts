@@ -13,8 +13,8 @@ const appDecorator = () => ({
         </v-content>
       </div>
     </v-app>
-  `
-})
+  `,
+});
 
 storiesOf('LoveButton', module)
   .addDecorator(appDecorator)
