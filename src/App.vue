@@ -4,6 +4,7 @@
       <v-toolbar-title class="headline text-uppercase">
         <span>Vuetify</span>
         <span class="font-weight-light">MATERIAL DESIGN</span>
+        <love-button love="vue" />
       </v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn
@@ -24,9 +25,11 @@
 
 <script lang="ts">
 import Vue from 'vue';
+import LoveButton from '@/components/LoveButton.vue';
 
 export default Vue.extend({
   name: 'App',
+  components: {LoveButton},
   data: () => ({
     //
   }),
