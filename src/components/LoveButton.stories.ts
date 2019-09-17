@@ -1,7 +1,10 @@
 import { storiesOf } from '@storybook/vue';
-import vuetify from '../plugins/vuetify';
-
+import Vue from 'vue';
+import Vuetify from 'vuetify';
 import LoveButton from './LoveButton.vue';
+
+Vue.use(Vuetify);
+const vuetify = new Vuetify({});
 
 const appDecorator = () => ({
   vuetify,
