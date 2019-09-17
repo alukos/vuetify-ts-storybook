@@ -35,5 +35,4 @@ module.exports = {
       babelConfig: true
     }
   },
-  setupFiles: ['./tests/jest-setup']
 }
