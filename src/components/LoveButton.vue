@@ -2,6 +2,7 @@
   <v-btn color="red">
     <v-icon>favorite</v-icon>
     {{love}}
+    <span style="font-family: Arial">test</span>
   </v-btn>
 </template>
 

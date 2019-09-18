@@ -1,6 +1,9 @@
 # not-a-todo-app
 [habr](https://habr.com/ru/post/438354/)
 
+#### issues: 
+- [test:unit storyshots-puppeteer] webfonts dont have time to load before the screenshot. Maybe to fix [issue](https://github.com/GoogleChrome/puppeteer/issues/422#issuecomment-334493369)
+
 ## webpack config
 - [add sass](https://storybook.js.org/docs/configurations/custom-webpack-config/#full-control-mode)
 - [package.json rm node-sass](https://github.com/vuetifyjs/vuetify/issues/7950#issuecomment-514853150)
